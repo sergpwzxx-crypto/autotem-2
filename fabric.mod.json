@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "autototem",
+  "version": "${version}",
+  "name": "AutoTotem Hotbar",
+  "description": "Cuando se popea el totem, pone otro de la hotbar en la mano secundaria.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ejemplo.autototem.AutoTotemClient"]
+  },
+  "mixins": ["autototem.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
